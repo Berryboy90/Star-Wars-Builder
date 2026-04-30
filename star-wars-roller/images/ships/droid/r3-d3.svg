@@ -1,0 +1,14 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-label="DROID - R3-D3">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f141c" />
+      <stop offset="100%" stop-color="#07090d" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="22" fill="url(#bg)" />
+  <rect x="18" y="18" width="364" height="264" rx="18" fill="none" stroke="#58c2ff" stroke-width="3" opacity="0.7" />
+  <text x="32" y="70" font-family="Orbitron, Arial, sans-serif" font-size="22" fill="#58c2ff" letter-spacing="2">DROID</text>
+  <text x="32" y="120" font-family="Space Grotesk, Arial, sans-serif" font-size="24" fill="#f4f0d7">R3-D3</text>
+  <rect x="32" y="150" width="120" height="8" rx="4" fill="#58c2ff" opacity="0.7" />
+  <rect x="32" y="170" width="220" height="8" rx="4" fill="#58c2ff" opacity="0.4" />
+</svg>

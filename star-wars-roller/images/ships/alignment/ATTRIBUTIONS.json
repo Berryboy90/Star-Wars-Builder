@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Jedi",
+    "image": "images/ships/alignment/jedi.svg",
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Jedi_Order_(brown).svg",
+    "license": "see source"
+  },
+  {
+    "name": "Sith",
+    "image": "images/ships/alignment/sith.svg",
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sith_Emblem_(Star_Wars).svg",
+    "license": "see source"
+  },
+  {
+    "name": "Rebel",
+    "image": "images/ships/alignment/rebel.svg",
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Rebel_Alliance.svg",
+    "license": "see source"
+  },
+  {
+    "name": "Imperial",
+    "image": "images/ships/alignment/imperial.svg",
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_First_Galactic_Empire.svg",
+    "license": "see source"
+  },
+  {
+    "name": "First Order",
+    "image": "images/ships/alignment/first-order.svg",
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_First_Order.svg",
+    "license": "see source"
+  },
+  {
+    "name": "Resistance",
+    "image": "images/ships/alignment/resistance.svg",
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Resistance_Emblem_Star_Wars.svg",
+    "license": "see source"
+  },
+  {
+    "name": "Separatist",
+    "image": "images/ships/alignment/separatist.svg",
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Confederacy_of_Independent_Systems.svg",
+    "license": "see source"
+  },
+  {
+    "name": "Republic",
+    "image": "images/ships/alignment/republic.svg",
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Galactic_Republic.svg",
+    "license": "see source"
+  },
+  {
+    "name": "Clone",
+    "image": "images/ships/alignment/clone.svg",
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Galactic_Republic.svg",
+    "license": "see source"
+  },
+  {
+    "name": "Mandalorian",
+    "image": "images/ships/alignment/mandalorian.svg",
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Mandalorian.svg",
+    "license": "see source"
+  },
+  {
+    "name": "Neutral",
+    "image": "images/ships/alignment/neutral.svg",
+    "source": "generated",
+    "source_url": "local",
+    "license": "CC0"
+  }
+]

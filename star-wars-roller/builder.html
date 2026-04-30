@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star Wars Builder Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <div class="hub-card">
+      <div class="hub-header">
+        <h1>Star Wars Builder</h1>
+        <button id="logoutButton" class="ghost-button">Log Out</button>
+      </div>
+      <p class="hub-subtitle">Choose what you want to build today.</p>
+      <div class="hub-grid">
+        <a class="hub-tile" href="character.html">
+          <h2>Character Builder</h2>
+          <p>Roll traits, lock favorites, and save a hero or villain.</p>
+        </a>
+        <a class="hub-tile" href="ship.html">
+          <h2>Ship Builder</h2>
+          <p>Assemble parts, pick a style, and save your custom ship.</p>
+        </a>
+        <a class="hub-tile" href="battle.html">
+          <h2>Battle Simulator</h2>
+          <p>Load saved builds, compare canon power across categories, and crown a winner.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="auth.js"></script>
+  <script>
+    requireAuth();
+    document.getElementById('logoutButton').addEventListener('click', logout);
+  </script>
+</body>
+</html>

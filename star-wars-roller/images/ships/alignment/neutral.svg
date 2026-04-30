@@ -1,0 +1,13 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-label="Neutral symbol">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#141b26" />
+      <stop offset="100%" stop-color="#07090d" />
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" rx="22" fill="url(#bg)" />
+  <circle cx="200" cy="140" r="72" fill="none" stroke="#f4f0d7" stroke-width="6" opacity="0.9" />
+  <circle cx="200" cy="140" r="40" fill="none" stroke="#f4f0d7" stroke-width="3" opacity="0.7" />
+  <path d="M200 95 L225 140 L200 185 L175 140 Z" fill="#f4f0d7" opacity="0.8" />
+  <text x="200" y="245" text-anchor="middle" font-family="Orbitron, Arial, sans-serif" font-size="22" fill="#f4f0d7" letter-spacing="2">NEUTRAL</text>
+</svg>

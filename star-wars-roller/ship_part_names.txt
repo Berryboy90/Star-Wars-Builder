@@ -1,0 +1,120 @@
+﻿Twin Laser Cannons
+Ion Cannon
+Turbolaser Battery
+Concussion Missile Rack
+Tractor Beam
+Heavy Blaster
+Quad Laser Turret
+Disruptor Array
+Proton Torpedo Launcher
+Plasma Cannon
+Particle Beam
+Pulse Laser
+Auto-Blaster
+Railgun
+Beam Laser
+Ion Missile Pod
+Thermal Detonator Tube
+Magnetic Harpoon
+Seeker Missile Array
+Flak Cannon
+Long-Range Laser
+Burst Cannon
+Micro-Rocket Pod
+Shock Cannon
+EMP Launcher
+Plasma Torpedo
+Rapid-Fire Turret
+Heavy Ion Turret
+Cycling Laser
+Mass Driver
+R2-D2
+R2-D5
+R2-Q5
+R2-KT
+R2-B1
+R2-A3
+R3-S6
+R3-A7
+R3-D3
+R3-A5
+R4-P17
+R4-G9
+R4-G0
+R4-E1
+R5-D4
+R5-J2
+R5-P8
+R5-X2
+R5-A2
+R5-K6
+R6-D5
+R6-H5
+R7-A7
+R7-D4
+R8-B7
+R8-A5
+R9-D9
+R9-K1
+BB-8
+BB-9E
+Sublight Thrusters
+Hyperdrive Class 1
+Hyperdrive Class 2
+Hyperdrive Class 3
+Hyperdrive Class 4
+Ion Engines
+Experimental Drive
+Stealth Engine
+S-Foil Boost
+Overcharged Reactor
+Dual Ion Thrusters
+Vector Thrusters
+Afterburner Array
+Fusion Drive
+Plasma Drive
+Quantum Boost
+Mag-Field Drive
+Tuned Hyperdrive
+Twin-Vector Engines
+Tri-Ion Engine
+Fuel Saver Kit
+Boosted Stabilizers
+Rapid Jump Spool
+Radiant Core
+Power Coupler
+Hyperdrive Class 0.5
+Atmospheric Jets
+Subspace Injector
+Silent Runner
+Stellar Overdrive
+Millennium Falcon
+X-Wing
+TIE Fighter
+Star Destroyer
+Slave I
+Imperial Shuttle
+Naboo Starfighter
+Razor Crest
+A-Wing
+B-Wing
+Y-Wing
+U-Wing
+TIE Interceptor
+TIE Bomber
+TIE Advanced
+Lambda Shuttle
+ARC-170
+Z-95 Headhunter
+Jedi Starfighter
+V-Wing
+TIE Defender
+Gauntlet Fighter
+Kom'rk-class
+Ghost
+Phantom
+Ebon Hawk
+Outrider
+YT-2400
+T-6 Shuttle
+Corellian Corvette

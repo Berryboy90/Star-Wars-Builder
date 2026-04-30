@@ -1,0 +1,13 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-label="Separatist symbol">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#141b26" />
+      <stop offset="100%" stop-color="#07090d" />
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" rx="22" fill="url(#bg)" />
+  <circle cx="200" cy="140" r="70" fill="none" stroke="#7ae582" stroke-width="6" opacity="0.9" />
+  <circle cx="200" cy="140" r="44" fill="none" stroke="#7ae582" stroke-width="3" opacity="0.7" />
+  <path d="M200 90 L220 140 L200 190 L180 140 Z" fill="#7ae582" opacity="0.8" />
+  <text x="200" y="245" text-anchor="middle" font-family="Orbitron, Arial, sans-serif" font-size="22" fill="#7ae582" letter-spacing="2">Separatist</text>
+</svg>

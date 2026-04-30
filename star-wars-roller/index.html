@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star Wars Builder Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <div class="auth-card">
+      <h1>Star Wars Builder</h1>
+      <p class="auth-subtitle">Log in or create an account to begin building.</p>
+      <form id="loginForm" class="auth-form">
+        <label>
+          Username
+          <input type="text" id="loginUsername" autocomplete="username" required />
+        </label>
+        <label>
+          Password
+          <input type="password" id="loginPassword" autocomplete="current-password" required />
+        </label>
+        <button type="submit">Log In</button>
+      </form>
+      <div class="auth-divider">or</div>
+      <form id="signupForm" class="auth-form">
+        <label>
+          New Username
+          <input type="text" id="signupUsername" autocomplete="username" required />
+        </label>
+        <label>
+          New Password
+          <input type="password" id="signupPassword" autocomplete="new-password" required />
+        </label>
+        <button type="submit">Sign Up</button>
+      </form>
+      <p id="authMessage" class="auth-message" role="status" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

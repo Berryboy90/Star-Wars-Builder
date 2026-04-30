@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star Wars Ship Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <div class="main-content">
+      <div class="page-topbar">
+        <a class="ghost-button" href="builder.html">Back to Builder Hub</a>
+        <button id="logoutButton" class="ghost-button">Log Out</button>
+      </div>
+      <h1>Star Wars Ship Builder</h1>
+      <div class="traits-grid" id="shipTraitsGrid">
+        <!-- Ship slots -->
+      </div>
+      <button id="rollShipButton">Roll</button>
+      <button id="saveShipButton">Save Ship</button>
+    </div>
+    <div class="saved-characters">
+      <h2>Saved Ships</h2>
+      <div id="savedShipList" class="saved-list"></div>
+    </div>
+  </div>
+
+  <script src="auth.js"></script>
+  <script>
+    requireAuth();
+    document.getElementById('logoutButton').addEventListener('click', logout);
+  </script>
+  <script src="ships.js"></script>
+  <script src="ship.js"></script>
+</body>
+</html>

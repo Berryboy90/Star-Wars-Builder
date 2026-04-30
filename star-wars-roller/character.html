@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star Wars Character Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <div class="main-content">
+      <div class="page-topbar">
+        <a class="ghost-button" href="builder.html">Back to Builder Hub</a>
+        <button id="logoutButton" class="ghost-button">Log Out</button>
+      </div>
+      <h1>Star Wars Character Builder</h1>
+      <div class="traits-grid">
+        <!-- Trait slots -->
+      </div>
+      <button id="rollButton">Roll</button>
+      <button id="saveButton">Save Character</button>
+    </div>
+    <div class="saved-characters">
+      <h2>Saved Characters</h2>
+      <div id="savedList" class="saved-list"></div>
+    </div>
+  </div>
+
+  <script src="auth.js"></script>
+  <script>
+    requireAuth();
+    document.getElementById('logoutButton').addEventListener('click', logout);
+  </script>
+  <script src="characters.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

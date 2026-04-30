@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star Wars Battle Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell battle-shell">
+    <div class="battle-card">
+      <div class="page-topbar">
+        <a class="ghost-button" href="builder.html">Back to Builder Hub</a>
+        <button id="logoutButton" class="ghost-button">Log Out</button>
+      </div>
+
+      <h1>Battle Simulator</h1>
+      <p class="hub-subtitle">Select two saved builds and compare them with deterministic canon-based scoring.</p>
+
+      <section class="battle-controls" aria-label="Battle setup">
+        <div class="mode-toggle" role="radiogroup" aria-label="Battle mode">
+          <button type="button" class="mode-button active" data-mode="character" aria-pressed="true">Character Battle</button>
+          <button type="button" class="mode-button" data-mode="ship" aria-pressed="false">Ship Battle</button>
+        </div>
+
+        <div class="battle-selectors">
+          <label class="battle-select">
+            Fighter One
+            <select id="fighterOneSelect"></select>
+          </label>
+          <label class="battle-select">
+            Fighter Two
+            <select id="fighterTwoSelect"></select>
+          </label>
+        </div>
+
+        <button id="startBattleButton" type="button">Start Battle</button>
+        <p id="battleStatus" class="auth-message" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="battle-preview-grid" id="battlePreviewGrid" aria-label="Current selections">
+        <article class="battle-preview" id="fighterOnePreview"></article>
+        <article class="battle-preview" id="fighterTwoPreview"></article>
+      </section>
+
+      <section class="battle-results-panel" id="battleResultsPanel" hidden>
+        <div class="battle-results-header">
+          <h2>Battle Results</h2>
+          <p id="battleWinnerText" class="battle-winner-text"></p>
+        </div>
+        <div class="battle-results-grid" id="battleResultsGrid"></div>
+      </section>
+    </div>
+  </div>
+
+  <script src="auth.js"></script>
+  <script>
+    requireAuth();
+    document.getElementById('logoutButton').addEventListener('click', logout);
+  </script>
+  <script src="characters.js"></script>
+  <script src="ships.js"></script>
+  <script src="rankings.js"></script>
+  <script src="battle.js"></script>
+</body>
+</html>
